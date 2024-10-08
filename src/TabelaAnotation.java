@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 public @interface TabelaAnotation {
     String nome();
-    String descricao() default ""; // Atributo opcional
+    String descricao() default "";
     String dataCriacao();
     String autor();
 }
